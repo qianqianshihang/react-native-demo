@@ -9,10 +9,10 @@ export default class FlexTest extends Component {
         return (
             <View style={FlexTestStyle.container}>
                 <Text style={FlexTestStyle.item1}>1</Text>
-                <Text style={FlexTestStyle.item1}>2</Text>
-                <Text style={FlexTestStyle.item1}>3</Text>
-                <Text style={FlexTestStyle.item1}>4</Text>
-                <Text style={FlexTestStyle.item1}>5</Text>
+                {/*<Text style={FlexTestStyle.item1}>2</Text>*/}
+                {/*<Text style={FlexTestStyle.item1}>3</Text>*/}
+                {/*<Text style={FlexTestStyle.item1}>4</Text>*/}
+                {/*<Text style={FlexTestStyle.item1}>5</Text>*/}
                 <Text style={FlexTestStyle.item2_flex_end}>end</Text>
             </View>
         )

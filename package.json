@@ -1,5 +1,5 @@
 {
-  "name": "AwesomeProject",
+  "name": "reactNativeDemo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,8 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.3.0-alpha.3",
-    "react-native": "0.54.2"
+    "react": "^16.3.0-alpha.3",
+    "react-native": "^0.54.2"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
