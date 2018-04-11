@@ -12,7 +12,8 @@ export default class FlexTest extends Component {
                 <Text style={FlexTestStyle.item1}>2</Text>
                 <Text style={FlexTestStyle.item1}>3</Text>
                 <Text style={FlexTestStyle.item1}>4</Text>
-                <Text style={FlexTestStyle.item2_flex_end}>5</Text>
+                <Text style={FlexTestStyle.item1}>5</Text>
+                <Text style={FlexTestStyle.item2_flex_end}>end</Text>
             </View>
         )
     }
