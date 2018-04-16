@@ -49,7 +49,6 @@ export default class FetchTest extends Component {
             .then(response => response.json())
             .then(responseJson => {
                 var usrs = responseJson;
-                ToastAndroid.show("fetchUser"+usrs, ToastAndroid.SHORT)
                 this.setState({
                     user: usrs[0],
                 })
